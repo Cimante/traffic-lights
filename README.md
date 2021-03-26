@@ -1,24 +1,21 @@
 # traffic-lights
 
-## Project setup
-```
-npm install
+## Эмулятор светофора
+
+Работает циклически в зависимости от открытого экрана: красный('/red') -> желтый('/yellow') -> зеленый('/green') -> желтый('/yellow') -> красный('/red') -> желтый('/yellow') -> ...
+
+При смене сигнала меняется роут
+
+Дополнительно:  
+✅ Таймер, показывающий сколько секунд осталось до смены сигнала светофора  
+✅ Мигание сигнала светофора, если до его смены осталось меньше 3-х секунд
+
+Установите зависимости:
+```bash
+npm i
 ```
 
-### Compiles and hot-reloads for development
+Запустите:
+```bash
+npm run start
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
